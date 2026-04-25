@@ -1,19 +1,44 @@
-<header>
-  <h1>Mon site</h1>
-  <nav>
-    <a href="#">Accueil</a>
-    <a href="#">À propos</a>
-    <a href="#">Contact</a>
-  </nav>
-</header>
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
+}
 
-<main>
-  <section>
-    <h2>Bienvenue</h2>
-    <p>Contenu ici...</p>
-  </section>
-</main>
+header {
+  background: #333;
+  color: white;
+  padding: 15px;
+}
 
-<footer>
-  <p>© 2026</p>
-</footer>
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+input, button {
+  margin: 5px;
+  padding: 8px;
+}
+
+ul {
+  background: white;
+  padding: 10px;
+  list-style: none;
+}
+
+li {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

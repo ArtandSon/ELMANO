@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Professeur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Espace Professeur</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="teacher.html">Professeur</a>
+    <a href="student.html">Étudiant</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Ajouter une note</h2>
+
+  <input type="text" id="name" placeholder="Nom étudiant">
+  <input type="number" id="grade" placeholder="Note">
+  <button onclick="addGrade()">Ajouter</button>
+
+  <h2>Liste des notes</h2>
+  <button onclick="sortGrades('asc')">Croissant</button>
+  <button onclick="sortGrades('desc')">Décroissant</button>
+
+  <ul id="gradeList"></ul>
+</main>
+
+<footer>
+  <p>© 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
